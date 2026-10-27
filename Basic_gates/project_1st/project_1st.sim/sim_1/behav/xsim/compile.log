@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VHDL/Basic_gates/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_basicgates'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VHDL/Basic_gates/project_1st/project_1st.srcs/sim_1/new/test_sim1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_sim1'

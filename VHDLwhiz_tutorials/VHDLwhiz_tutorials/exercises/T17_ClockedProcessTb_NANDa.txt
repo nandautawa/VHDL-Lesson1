@@ -1,0 +1,57 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+
+entity Clock_Basic is
+end Clock_Basic;
+
+architecture Behavioral of Clock_Basic is
+
+    constant ClockFrequency : integer := 100e6; -- 100 MHz
+    constant ClockPeriod    : time    := 1000 ms / ClockFrequency;
+
+    signal Clk    : std_logic := '0';
+    signal nRst   : std_logic := '0';
+    signal Input  : std_logic := '0';
+    signal Output : std_logic;
+
+begin
+    -- Instansiasi DUT (Flip-Flop)
+    i_FlipFlop : entity work.T17_FlipFlop(rtl)
+        port map(
+            Clk    => Clk,
+            nRst   => nRst,
+            Input  => Input,
+            Output => Output
+        );
+
+    -- Clock generator
+    Clk <= not Clk after ClockPeriod / 2;
+
+    -- Testbench stimulus
+    process
+    begin
+        -- Reset aktif
+        nRst <= '0';
+        wait for 10 ns;
+
+        -- Lepas reset
+        nRst <= '1';
+        wait for 20 ns;
+
+        -- Uji input
+        Input <= '1';
+        wait for 22 ns;
+        Input <= '0';
+        wait for 6 ns;
+        Input <= '1';
+        wait for 20 ns;
+
+        -- Reset lagi
+        nRst <= '0';
+        wait for 10 ns;
+
+        wait;
+    end process;
+
+end Behavioral;

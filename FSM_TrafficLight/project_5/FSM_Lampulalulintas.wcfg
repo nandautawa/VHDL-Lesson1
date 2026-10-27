@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="state_machine_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="state_machine_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="625.501 ns"></ZoomEndTime>
+      <Cursor1Time time="145.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/state_machine_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/state_machine_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/state_machine_tb/sIDLE" type="logic">
+      <obj_property name="ElementShortName">sIDLE</obj_property>
+      <obj_property name="ObjectShortName">sIDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/state_machine_tb/state_Lampuhijau" type="logic">
+      <obj_property name="ElementShortName">state_Lampuhijau</obj_property>
+      <obj_property name="ObjectShortName">state_Lampuhijau</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/state_machine_tb/state_Lampukuning" type="logic">
+      <obj_property name="ElementShortName">state_Lampukuning</obj_property>
+      <obj_property name="ObjectShortName">state_Lampukuning</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/state_machine_tb/state_Lampumerah" type="logic">
+      <obj_property name="ElementShortName">state_Lampumerah</obj_property>
+      <obj_property name="ObjectShortName">state_Lampumerah</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/state_machine_tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>

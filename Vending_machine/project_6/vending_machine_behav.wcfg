@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vending_machine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="vending_machine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="996.618 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,129.519 ns"></ZoomEndTime>
+      <Cursor1Time time="1,099.918 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="260"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/vending_machine/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/in_money" type="array">
+      <obj_property name="ElementShortName">in_money[2:0]</obj_property>
+      <obj_property name="ObjectShortName">in_money[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/choose" type="other">
+      <obj_property name="ElementShortName">choose</obj_property>
+      <obj_property name="ObjectShortName">choose</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/thing" type="other">
+      <obj_property name="ElementShortName">thing</obj_property>
+      <obj_property name="ObjectShortName">thing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/out_money_1" type="array">
+      <obj_property name="ElementShortName">out_money_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_money_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/out_money_2" type="array">
+      <obj_property name="ElementShortName">out_money_2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_money_2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/out_money_3" type="array">
+      <obj_property name="ElementShortName">out_money_3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_money_3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/out_money_4" type="array">
+      <obj_property name="ElementShortName">out_money_4[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_money_4[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/out_money_5" type="array">
+      <obj_property name="ElementShortName">out_money_5[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_money_5[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/out_money_6" type="array">
+      <obj_property name="ElementShortName">out_money_6[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_money_6[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+</wave_config>

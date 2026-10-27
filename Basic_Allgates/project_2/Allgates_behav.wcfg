@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Allgates_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Allgates" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,008.766 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,022.247 ns"></ZoomEndTime>
+      <Cursor1Time time="1,020.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="198"></NameColumnWidth>
+      <ValueColumnWidth column_width="271"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/Allgates/anum" type="logic">
+      <obj_property name="ElementShortName">anum</obj_property>
+      <obj_property name="ObjectShortName">anum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/hanin" type="logic">
+      <obj_property name="ElementShortName">hanin</obj_property>
+      <obj_property name="ObjectShortName">hanin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/and_gate" type="logic">
+      <obj_property name="ElementShortName">and_gate</obj_property>
+      <obj_property name="ObjectShortName">and_gate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/or_gate" type="logic">
+      <obj_property name="ElementShortName">or_gate</obj_property>
+      <obj_property name="ObjectShortName">or_gate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/not_gate" type="logic">
+      <obj_property name="ElementShortName">not_gate</obj_property>
+      <obj_property name="ObjectShortName">not_gate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/nand_gate" type="logic">
+      <obj_property name="ElementShortName">nand_gate</obj_property>
+      <obj_property name="ObjectShortName">nand_gate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/nor_gate" type="logic">
+      <obj_property name="ElementShortName">nor_gate</obj_property>
+      <obj_property name="ObjectShortName">nor_gate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/xor_gate" type="logic">
+      <obj_property name="ElementShortName">xor_gate</obj_property>
+      <obj_property name="ObjectShortName">xor_gate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Allgates/xnor_gate" type="logic">
+      <obj_property name="ElementShortName">xnor_gate</obj_property>
+      <obj_property name="ObjectShortName">xnor_gate</obj_property>
+   </wvobject>
+</wave_config>
