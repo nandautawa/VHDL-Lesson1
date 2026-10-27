@@ -1,4 +1,6 @@
-Folder disini berisi File Pembelajaran VHDL dari Basic~Intermediate.
+Folder disini berisi 
+   ->File Latihan Pembelajaran VHDL dari Basic~Intermediate.
+   ->File Reference from Whiz
 
 Berikut garis besar materi belajar
 * Fundamental FPGA : FPGA vs Mikrokontroler, Konsep Parallel Processing, Arsitektur FPGA, Clocking
